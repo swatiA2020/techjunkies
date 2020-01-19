@@ -10,13 +10,13 @@ function main(
 
   schema = [
 
-    {name: 'userId', type: 'INTEGER', mode: 'REQUIRED'},
+    {name: 'userId', type: 'STRING'},
 
     {name: 'firstName', type: 'STRING'},
 
     {name: 'lastName', type: 'STRING'},
 
-    {name: 'phoneNumber', type: 'INTEGER'},
+    {name: 'phoneNumber', type: 'STRING'},
 
     {name: 'emailAddress', type: 'STRING'},
 
