@@ -10,7 +10,7 @@ function main(
 
   schema = [
 
-    {name: 'userId', type: 'STRING', mode: 'REQUIRED'},
+    {name: 'userId', type: 'INTEGER', mode: 'REQUIRED'},
 
     {name: 'firstName', type: 'STRING'},
 
