@@ -1,7 +1,7 @@
 /**
  * TODO(developer): Uncomment the following line before running the sample.
  */
-const bucketName = 'my-bucket_SA';
+const bucketName = 'my-bucketS';
 
 // Imports the Google Cloud client library
 const {Storage} = require('@google-cloud/storage');
