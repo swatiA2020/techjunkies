@@ -70,7 +70,7 @@ function main(datasetId = 'my_dataset', tableId = 'my_table') {
 
         fields: [
 
-            {name: 'userId', type: 'STRING'},
+            {name: 'userId', type: 'STRING',  mode: 'REQUIRED'},
 
             {name: 'firstName', type: 'STRING'},
         
