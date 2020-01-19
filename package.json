@@ -1,0 +1,19 @@
+{
+  "name": "techjunkies",
+  "version": "1.0.0",
+  "description": "Upload file to gcp",
+  "main": "createDataset.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swatiA2020/techjunkies.git"
+  },
+  "author": "Swati Amlani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swatiA2020/techjunkies/issues"
+  },
+  "homepage": "https://github.com/swatiA2020/techjunkies#readme"
+}
