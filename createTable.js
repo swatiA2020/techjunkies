@@ -18,7 +18,7 @@ function main(
 
     {name: 'phoneNumber', type: 'INTEGER'},
 
-    {name: 'emailAddress', type: 'STRING'}
+    {name: 'emailAddress', type: 'STRING'},
 
   ]
 
