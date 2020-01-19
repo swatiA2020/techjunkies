@@ -70,9 +70,15 @@ function main(datasetId = 'my_dataset', tableId = 'my_table') {
 
         fields: [
 
-          {name: 'name', type: 'STRING'},
+            {name: 'userId', type: 'STRING'},
 
-          {name: 'post_abbr', type: 'STRING'},
+            {name: 'firstName', type: 'STRING'},
+        
+            {name: 'lastName', type: 'STRING'},
+        
+            {name: 'phoneNumber', type: 'INTEGER'},
+        
+            {name: 'emailAddress', type: 'STRING'},
 
         ],
 
