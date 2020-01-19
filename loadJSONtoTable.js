@@ -1,3 +1,4 @@
+
 'use strict';
 
 
@@ -53,8 +54,7 @@ function main(datasetId = 'my_dataset', tableId = 'my_table') {
      */
 
     const datasetId = "my_new_dataset_SA";
-
-    const tableId = "table1_swati";
+     const tableId = "table1_swati";
 
 
 
@@ -70,15 +70,9 @@ function main(datasetId = 'my_dataset', tableId = 'my_table') {
 
         fields: [
 
-    {name: 'userId', type: 'STRING', mode: 'REQUIRED'},
+          {name: 'name', type: 'STRING'},
 
-    {name: 'firstName', type: 'STRING'},
-
-    {name: 'lastName', type: 'STRING'},
-
-    {name: 'phoneNumber', type: 'INTEGER'},
-
-    {name: 'emailAddress', type: 'STRING'}
+          {name: 'post_abbr', type: 'STRING'},
 
         ],
 
