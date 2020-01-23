@@ -5,8 +5,7 @@
 
 function main(datasetId = 'my_dataset', tableId = 'my_table') {
 
-  // [START bigquery_load_table_gcs_json]
-
+  
   // Import the Google Cloud client libraries
 
   const {BigQuery} = require('@google-cloud/bigquery');
@@ -22,19 +21,6 @@ function main(datasetId = 'my_dataset', tableId = 'my_table') {
   const storage = new Storage();
 
 
-
-  /**
-
-   * This sample loads the json file at
-
-   * https://storage.googleapis.com/cloud-samples-data/bigquery/us-states/us-states.json
-
-   *
-
-   * TODO(developer): Replace the following lines with the path to your file.
-
-   */
-
   const bucketName = 'bucket1-swati';
 
   const filename = 'emp.json';
@@ -46,21 +32,9 @@ function main(datasetId = 'my_dataset', tableId = 'my_table') {
     // Imports a GCS file into a table with manually defined schema.
 
 
-
-    /**
-
-     * TODO(developer): Uncomment the following lines before running the sample.
-
-     */
-
     const datasetId = "my_new_dataset_SA";
      const tableId = "table1_swati";
 
-
-
-    // Configure the load job. For full list of options, see:
-
-    // https://cloud.google.com/bigquery/docs/reference/rest/v2/Job#JobConfigurationLoad
 
     const metadata = {
 
@@ -118,8 +92,7 @@ function main(datasetId = 'my_dataset', tableId = 'my_table') {
 
   }
 
-  // [END bigquery_load_table_gcs_json]
-
+  
   loadJSONFromGCS();
 
 }

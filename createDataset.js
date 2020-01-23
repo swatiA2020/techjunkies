@@ -1,7 +1,6 @@
 'use strict';
 
 
-
 function main(datasetId = 'my_new_dataset_SA') {
 
   // [START bigquery_create_dataset]
@@ -36,7 +35,6 @@ function main(datasetId = 'my_new_dataset_SA') {
 
   createDataset();
 
-  // [END bigquery_create_dataset]
 
 }
 
