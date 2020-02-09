@@ -3,9 +3,9 @@
 
 function main(
 
-  datasetId = 'my_new_dataset_SA', // Existing dataset
+  datasetId1 = 'my_new_dataset_SA', // Existing dataset
 
-  tableId = 'table1_swati', // Table to be created
+  tableId1 = 'table1_swati', // Table to be created
 
   schema = [
 
