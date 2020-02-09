@@ -29,14 +29,34 @@ function main(
   const bigquery = new BigQuery();
 
 
+  
+  async function createDataset() {
+
+    
+
+    const options = {
+
+      location: 'US',
+
+    };
+
+
+
+    // Create a new dataset
+
+    const [dataset] = await bigquery.createDataset(datasetId, options);
+
+    console.log(`Dataset ${dataset.id} created.`);
+
+  }
 
   async function createTable() {
 
     // Creates a new table named "my_table" in "my_dataset".
 
-     var datasetId = "my_new_dataset_SA";
+     const datasetId = "my_new_dataset_SA";
 
-    // const tableId = "my_table";
+     const tableId = "table1_swati";
 
     // const schema = 'Name:string, Age:integer, Weight:float, IsMagic:boolean';
 
@@ -63,29 +83,7 @@ function main(
 
     console.log(`Table ${table.id} created.`);
 
-  }
-  
-  
-  
-  async function createDataset() {
-
-    
-
-    const options = {
-
-      location: 'US',
-
-    };
-
-
-
-    // Create a new dataset
-
-    const [dataset] = await bigquery.createDataset(datasetId, options);
-
-    console.log(`Dataset ${dataset.id} created.`);
-
-  }
+  } 
 
   createDataset();
   createTable();
