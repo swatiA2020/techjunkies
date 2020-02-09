@@ -95,10 +95,6 @@ function main(
     // Imports a GCS file into a table with manually defined schema.
 
 
-    var datasetId = "my_new_dataset_SA";
-     var tableId = "table1_swati";
-
-
     const metadata = {
 
       sourceFormat: 'NEWLINE_DELIMITED_JSON',
