@@ -3,7 +3,7 @@
 
 function main(
 
-  datasetId = 'my_new_dataset_SA', // Existing dataset
+  datasetId = 'my_table', // Existing dataset
 
   tableId = 'table1_swati', // Table to be created
 
@@ -34,7 +34,7 @@ function main(
 
     // Creates a new table named "my_table" in "my_dataset".
 
-     var datasetId = "my_new_dataset_SA";
+     const datasetId = "my_new_dataset_SA";
 
     // const tableId = "my_table";
 
