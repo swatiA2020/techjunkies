@@ -3,9 +3,9 @@
 
 function main(
 
-  datasetId1 = 'my_new_dataset_SA', // Existing dataset
+  datasetId = 'my_new_dataset_SA', // Existing dataset
 
-  tableId1 = 'table1_swati', // Table to be created
+  tableId = 'table1_swati', // Table to be created
 
   schema = [
 
@@ -38,9 +38,7 @@ function main(
 
   const filename = 'emp.json';
    
-   const datasetId = "my_new_dataset_SA";
-
-   const tableId = "table1_swati";
+   
    
   
   async function createDataset() {   
