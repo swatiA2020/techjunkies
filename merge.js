@@ -67,7 +67,7 @@ function main(
 
      var datasetId = "my_new_dataset_SA";
 
-     const tableId = "table1_swati";
+     var tableId = "table1_swati";
 
     // const schema = 'Name:string, Age:integer, Weight:float, IsMagic:boolean';
 
@@ -96,7 +96,7 @@ function main(
 
 
     var datasetId = "my_new_dataset_SA";
-     const tableId = "table1_swati";
+     var tableId = "table1_swati";
 
 
     const metadata = {
