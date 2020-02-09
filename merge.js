@@ -1,49 +1,6 @@
 'use strict';
 
 
-function main(datasetId = 'my_new_dataset_SA') {
-
-  // [START bigquery_create_dataset]
-
-  // Import the Google Cloud client library and create a client
-
-  const {BigQuery} = require('@google-cloud/bigquery');
-
-  const bigquery = new BigQuery();
-
-
-
-  async function createDataset() {
-
-    
-
-    const options = {
-
-      location: 'US',
-
-    };
-
-
-
-    // Create a new dataset
-
-    const [dataset] = await bigquery.createDataset(datasetId, options);
-
-    console.log(`Dataset ${dataset.id} created.`);
-
-  }
-
-  createDataset();
-
-
-}
-
-main(...process.argv.slice(2));
-
-'use strict';
-
-
-
 function main(
 
   datasetId = 'my_new_dataset_SA', // Existing dataset
@@ -66,8 +23,6 @@ function main(
 
 ) {
 
-
-  // Import the Google Cloud client library and create a client
 
   const {BigQuery} = require('@google-cloud/bigquery');
 
@@ -109,8 +64,30 @@ function main(
     console.log(`Table ${table.id} created.`);
 
   }
+  
+  
+  
+  async function createDataset() {
+
+    
+
+    const options = {
+
+      location: 'US',
+
+    };
 
 
+
+    // Create a new dataset
+
+    const [dataset] = await bigquery.createDataset(datasetId, options);
+
+    console.log(`Dataset ${dataset.id} created.`);
+
+  }
+
+  createDataset();
   createTable();
 
 }
