@@ -1,0 +1,19 @@
+pipeline {
+  agent any
+    
+      
+  stages {
+        
+    stage('Cloning Git') {
+      steps {
+        git 'https://github.com/swatiA2020/techjunkies.git'
+      }
+    }
+            
+    stage('Test') {
+      steps {
+         sh 'node createBucket.js'
+      }
+    }      
+  }
+}
