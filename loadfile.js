@@ -2,7 +2,8 @@
  * TODO(developer): Uncomment the following lines before running the sample.
  */
 const bucketName = 'bucket1-swati';
-const filename = 'C:/Users/Rashmi Amlani/Desktop/Test.json';
+//const filename = 'C:/Users/Rashmi Amlani/Desktop/Test.json';
+const filename = "C:\Users\Rashmi Amlani\Documents\emp.json";
 
 // Imports the Google Cloud client library
 const {Storage} = require('@google-cloud/storage');

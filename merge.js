@@ -38,6 +38,8 @@ function main(datasetId = 'my_new_dataset_SA') {
 
 }
 
+main(...process.argv.slice(2));
+
 'use strict';
 
 
@@ -115,4 +117,3 @@ function main(
 
 main(...process.argv.slice(2));
 
-main(...process.argv.slice(2));
