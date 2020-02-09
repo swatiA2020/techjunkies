@@ -38,7 +38,9 @@ function main(
 
   const filename = 'emp.json';
    
-   
+   const datasetId = "my_new_dataset_SA";
+
+   const tableId = "table1_swati";
    
   
   async function createDataset() {   
@@ -65,9 +67,9 @@ function main(
 
     // Creates a new table named "my_table" in "my_dataset".
 
-     var datasetId = "my_new_dataset_SA";
+     //var datasetId = "my_new_dataset_SA";
 
-     var tableId = "table1_swati";
+     //var tableId = "table1_swati";
 
     // const schema = 'Name:string, Age:integer, Weight:float, IsMagic:boolean';
 
