@@ -34,7 +34,7 @@ function main(
 
     // Creates a new table named "my_table" in "my_dataset".
 
-    // const datasetId = "my_dataset";
+     var datasetId = "my_new_dataset_SA";
 
     // const tableId = "my_table";
 
