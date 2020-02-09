@@ -3,7 +3,7 @@
  */
 const bucketName = 'bucket1-swati';
 //const filename = 'C:/Users/Rashmi Amlani/Desktop/Test.json';
-const filename = "E:\emp.json";
+const filename = "E:/emp.json";
 
 // Imports the Google Cloud client library
 const {Storage} = require('@google-cloud/storage');
