@@ -1,10 +1,10 @@
 
-function main(bucketName = 'bucket1-swati', filename = 'E:/emp.json') {
+function main(bucketName = 'bucket1-swati', filename = 'E:\emp.json') {
 
 
    var bucketName = 'bucket1-swati';
 
-   var filename = 'E:/emp.json';
+   var filename = 'E:\emp.json';
 
 
   // Imports the Google Cloud client library
